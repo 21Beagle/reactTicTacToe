@@ -1,0 +1,25 @@
+.tile {
+    border: black 2px solid;
+    font-size: 10rem;
+    background-color: aliceblue;
+    line-height: 0rem;
+}
+
+.tile:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.X {
+    padding: 0;
+    color: red;
+}
+
+.O {
+    padding: 0;
+    color: green;
+}
+
+span {
+    display : inline-block;
+    vertical-align : middle;
+}
