@@ -13,8 +13,7 @@ function TwoPlayerConnect4() {
     const [colCount, setColCount] = useState(Array.from(
         { length: 7 }, v => 6
     ))
-
-    conÁÁst[playerTurn, setPlayerTurn] = useState("R")
+    const [playerTurn, setPlayerTurn] = useState("R")
 
     const [winner, setWinner] = useState(false)
 
