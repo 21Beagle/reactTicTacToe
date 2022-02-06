@@ -72,7 +72,7 @@ function TwoPlayerConnect4() {
     }
 
     return <>
-        <div ClassName="connect4-board">
+        <div className="connect4-board">
             {board.map((column, key) => {
                 return <Connect4Column key={key} column_id={key} playerTurn={playerTurn} column={column} dropTile={(colour) => dropTile(colour)} />;
             })}

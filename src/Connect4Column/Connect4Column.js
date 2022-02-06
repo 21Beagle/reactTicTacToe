@@ -7,7 +7,7 @@ function Connect4Column(props) {
     let styles
 
     if (props.playerTurn == "R") {
-        styles = "connect4-drop-button red-text" 
+        styles = "connect4-drop-button red-text"
     } else {
         styles = "connect4-drop-button yellow-text"
     }
@@ -16,12 +16,12 @@ function Connect4Column(props) {
     return <div className="connect4-column">
         {props.column.map((tile, key) => {
             return <>
-                <Connect4Tile key={key} colour={tile} />
+                <Connect4Tile key={props.column_id} colour={tile} />
             </>
         })}
-        <button className={`${styles}`} key={props.column_id} onClick={()=>props.dropTile(props.column_id)}>
+        <button className={`${styles}`} key={props.column_id} onClick={() => props.dropTile(props.column_id)}>
             <span className="drop-span">Click here</span>
-            </button>
+        </button>
     </div>;
 }
 
