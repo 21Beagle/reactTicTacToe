@@ -1,0 +1,33 @@
+.connect4-column {
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0 auto;
+    width: 6rem;
+    height: 36rem;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(7, 6rem);
+}
+
+.connect4-drop-button {
+    width: 6rem;
+    border: black 6px solid;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: currentColor;
+    color: black
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.red-text {
+    color: red;
+}
+
+.drop-span {
+    color: black;
+}

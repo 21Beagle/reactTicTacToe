@@ -4,19 +4,19 @@ import './Tile.css'
 function Tile(props) {
 
     
-    var styles = `tile ${props.sign}`
+    var styles = `${props.sign}`
 
     let symbol
     
     if (props.sign == "X") {
         symbol = "✕"
     } else if (props.sign == "O") {
-        symbol = "○"
+        symbol = "O"
     }
     
 
-    return <button className={styles} onClick={ () => props.changeBoard(props.tile_id)  }>
-        <span>{symbol}</span> 
+    return <button className="tile" onClick={ () => props.changeBoard(props.tile_id)  }>
+        <span className={styles} >{symbol}</span> 
     </button>;
 }
 

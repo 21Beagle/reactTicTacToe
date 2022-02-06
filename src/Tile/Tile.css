@@ -2,24 +2,36 @@
     border: black 2px solid;
     font-size: 10rem;
     background-color: aliceblue;
-    line-height: 0rem;
+    line-height: 10rem;
 }
 
 .tile:hover {
     background-color: rgba(255, 255, 255, .9);
 }
 
+
+
 .X {
+    position: relative;
+    font-weight:bolder;
     padding: 0;
     color: red;
 }
 
 .O {
-    padding: 0;
+    position: relative;
+    font-size: 10rem;
     color: green;
+    line-height: 10rem;
+
 }
 
 span {
+    height: 100%;
+    width: 100%;
     display : inline-block;
-    vertical-align : middle;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: center;
 }

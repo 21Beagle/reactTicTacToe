@@ -1,0 +1,19 @@
+.connect4-tile {
+    box-sizing: border-box;
+    font-size: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+    height: 5rem;
+    background-color: aliceblue;
+    line-height: 6rem;
+    border-radius: 6rem;
+    justify-content: center;
+}
+
+.connect4-tile-yellow {
+    background-color: yellow;
+}
+
+.connect4-tile-red {
+    background-color: red;
+}

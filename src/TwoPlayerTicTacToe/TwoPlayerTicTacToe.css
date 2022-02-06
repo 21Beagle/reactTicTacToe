@@ -20,4 +20,21 @@
     display: block;
     margin-top: 2rem;
     justify-content: center;
+    font-size: 2rem;
+}
+
+.player-move {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.X-board {
+    color: red;
+}
+
+.O-board {
+    color: green;
 }

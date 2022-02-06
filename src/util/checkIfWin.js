@@ -22,4 +22,8 @@ export function checkIfWin(board) {
             return winningInformation
         }
     }
+    if (!board.includes(undefined)){
+        var winningInformation = { winner: "draw" }
+        return winningInformation
+    } 
 }

@@ -20,6 +20,7 @@
     position: relative;
     margin: 0 auto;
     font-size: 4rem;
+    line-height: 8rem;
     height: 10rem;
     border: black 12px solid;
     border-radius: 24px;
@@ -31,3 +32,8 @@
 .hidden {
     display: none
 }
+
+.test {
+    border: dashed 2px blue;
+}
+
