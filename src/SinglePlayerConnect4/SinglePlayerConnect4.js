@@ -22,7 +22,6 @@ function SinglePlayerConnect4() {
         setColCount([...colCount])
     }
 
-    console.log(board)
     async function dropTile(column_id) {
         if (colCount[column_id] > 0) {
             console.log("sss")
