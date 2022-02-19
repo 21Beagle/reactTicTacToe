@@ -1,32 +1,32 @@
 .header {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin: 0 auto;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .home-button {
-  top: 30%;
-  position: relative;
+  top: 2%;
+  left: 2%;
+  position: absolute;
   margin: 0 auto;
-  font-size: 4rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 1rem;
   height: 4rem;
   border: black 6px solid;
   border-radius: 12px;
   display: block;
-  margin-top: 2rem;
   justify-content: center;
 }
 
 .choose-game-button {
   position: relative;
   margin: 0 auto;
-  font-size: 2rem;
-  line-height: 2rem;
-  height: 4rem;
-  border: black 6px solid;
-  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 1rem;
+  height: 2rem;
+  border: black 3px solid;
+  border-radius: 6px;
   display: block;
   margin-top: 2rem;
   justify-content: center;

@@ -1,22 +1,21 @@
-
 .board {
     position: relative;
     margin: 0 auto;
     border: black 6px solid;
     border-radius: 12px;
-    width: 30rem;
+    width: 15rem;
     display: grid;
     margin-top: 2rem;
     justify-content: center;
-    grid-template-columns: repeat(3, 10rem);
-    grid-template-rows: repeat(3, 10rem);
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
 }
 
 .undo-button {
     margin: 0 auto;
     border: black 3px solid;
     border-radius: 6px;
-    width: 10rem;
+    width: 5rem;
     display: block;
     margin-top: 2rem;
     justify-content: center;

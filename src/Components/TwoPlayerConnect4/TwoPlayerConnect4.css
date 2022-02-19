@@ -1,11 +1,11 @@
 .connect4-board {
     margin: 0 auto;
-    border: black 6px solid;
+
     border-radius: 12px;
-    width: 42rem;
-    height: 36rem;
+    width: 28rem;
+    height: 24em;
     display: grid;
     margin-top: 2rem;
     justify-content: center;
-    grid-template-columns: repeat(7, 6rem);
+    grid-template-columns: repeat(7, 4rem);
 }

@@ -3,18 +3,18 @@
     box-sizing: border-box;
     background-color: black;
     margin: 0 auto;
-    width: 6rem;
-    height: 36rem;
+    width: 4rem;
+    height: 28rem;
     display: grid;
     justify-content: center;
-    grid-template-rows: repeat(7, 6rem);
+    grid-template-rows: repeat(7, 4rem);
 }
 
 .connect4-drop-button {
-    width: 6rem;
-    border: black 6px solid;
-    border-radius: 12px;
-    font-size: 1.5rem;
+    width: 4rem;
+    border: black 4px solid;
+    border-radius: 6px;
+    font-size: 1.2rem;
     font-weight: bolder;
     background-color: currentColor;
     color: black

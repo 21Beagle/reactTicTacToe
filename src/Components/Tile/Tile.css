@@ -1,8 +1,8 @@
 .tile {
     border: black 2px solid;
-    font-size: 10rem;
+    font-size: 5rem;
     background-color: aliceblue;
-    line-height: 10rem;
+    line-height: 5rem;
 }
 
 .tile:hover {
@@ -13,23 +13,23 @@
 
 .X {
     position: relative;
-    font-weight:bolder;
+    font-weight: bolder;
     padding: 0;
     color: red;
 }
 
 .O {
     position: relative;
-    font-size: 10rem;
+    font-size: 5rem;
     color: green;
-    line-height: 10rem;
+    line-height: 5rem;
 
 }
 
 span {
     height: 100%;
     width: 100%;
-    display : inline-block;
+    display: inline-block;
     position: relative;
     box-sizing: border-box;
     text-align: center;

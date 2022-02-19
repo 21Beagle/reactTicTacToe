@@ -1,0 +1,89 @@
+.DotsAndBoxesTile {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.DotsAndBoxesNorth, .DotsAndBoxesSouth {
+    display: flex;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10px;
+}
+
+.DotsAndBoxesEastWest {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Dot {
+    box-sizing: border-box;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.north-button, .south-button {
+    height: 10px;
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.east-button, .west-button {
+    height: 100%;
+    width: 10px;
+    border: 0;
+    padding: 0;
+}
+
+.east-button, .west-button, .north-button, .south-button {
+    background-color: white;
+}
+
+
+.centerTile {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.fill-blue {
+    background-color: skyblue;
+    border-radius: 2px;
+}
+
+.fill-green {
+    background-color: seagreen;
+    border-radius: 2px;
+}
+
+.player-turn-green:hover {
+    box-sizing: border-box;
+    background-color: seagreen;
+    outline: 2px black dotted;
+}
+
+.player-turn-blue:hover {
+    box-sizing: border-box;
+    background-color: skyblue;
+    outline: 2px black dotted;
+}
+
+.G {
+    background-color: seagreen;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.B {
+    background-color: skyblue;
+    border: black 2px solid;
+    border-radius: 5px;
+}

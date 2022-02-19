@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react/cjs/react.development';
 import '../TwoPlayerConnect4/TwoPlayerConnect4.css'
 import Connect4Column from '../Connect4Column/Connect4Column';
-import { connect4CheckIfWin } from '../util/connect4CheckIfWin';
+import { connect4CheckIfWin } from '../../util/connect4CheckIfWin';
 
 function SinglePlayerConnect4() {
     const [board, setBoard] = useState(Array.from(

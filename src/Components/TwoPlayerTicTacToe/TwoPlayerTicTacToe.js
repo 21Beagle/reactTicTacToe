@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Tile from '../Tile/Tile'
-import { checkIfWin } from '../util/checkIfWin';
+import { checkIfWin } from '../../util/checkIfWin';
 import "./TwoPlayerTicTacToe.css"
 
 
